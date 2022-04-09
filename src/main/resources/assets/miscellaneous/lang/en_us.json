@@ -1,3 +1,7 @@
 {
-  "item.miscellaneous.ruby": "Ruby"
+  "item.miscellaneous.ruby": "Ruby",
+  "item.miscellaneous.koboldite_dust": "Koboldite Dust",
+  "item.miscellaneous.koboldite_nugget": "Koboldite Nugget",
+  "item.miscellaneous.koboldite_ingot": "Koboldite Ingot",
+  "item.miscellaneous.sky_fragment": "Sky Fragment"
 }

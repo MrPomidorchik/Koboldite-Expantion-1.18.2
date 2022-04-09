@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "miscellaneous:ruby_block",
+    "miscellaneous:ruby_ore",
+    "miscellaneous:deepslate_ruby_ore"
+  ]
+}

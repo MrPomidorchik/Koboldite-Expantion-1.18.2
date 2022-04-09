@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "miscellaneous:koboldite_ingot"
+    }
+  },
+  "result": {
+    "item": "miscellaneous:koboldite_block"
+  }
+}

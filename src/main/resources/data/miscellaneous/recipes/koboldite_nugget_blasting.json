@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "group": "koboldite_nugget",
+  "ingredient": {
+    "item": "miscellaneous:koboldite_dust"
+  },
+  "result": "miscellaneous:koboldite_nugget",
+  "experience": 2.0,
+  "cookingtime": 200
+}

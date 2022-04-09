@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "koboldite_ingot",
+  "ingredients": [
+    {
+      "item": "miscellaneous:koboldite_block"
+    }
+  ],
+  "result": {
+    "item": "miscellaneous:koboldite_ingot",
+    "count": 9
+  }
+}

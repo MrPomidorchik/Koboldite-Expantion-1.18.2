@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "group": "koboldite_dust",
+  "ingredient": {
+    "item": "miscellaneous:deepslate_koboldite_ore"
+  },
+  "result": "miscellaneous:koboldite_dust",
+  "experience": 2.0,
+  "cookingtime": 400
+}

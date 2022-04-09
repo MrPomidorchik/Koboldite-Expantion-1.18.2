@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "miscellaneous:koboldite_ingot"
+    }
+  ],
+  "result": {
+    "item": "miscellaneous:koboldite_nugget",
+    "count": 9
+  }
+}

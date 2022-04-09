@@ -7,6 +7,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 import net.mrpomidorchik.miscellaneous.MiscellaneousMod;
+import net.mrpomidorchik.miscellaneous.item.custom.ModPickaxeItem;
 
 public class ModItems {
 
@@ -24,6 +25,9 @@ public class ModItems {
 
     public static final Item SKY_FRAGMENT = registerItem("sky_fragment",
             new Item(new FabricItemSettings().group(ItemGroup.MISC).rarity(Rarity.UNCOMMON)));
+
+    public static final Item KOBOLDITE_PICKAXE = registerItem("koboldite_pickaxe",
+            new ModPickaxeItem(ModToolMaterials.KOBOLDIT, 1, -2.8f, new FabricItemSettings().group(ItemGroup.TOOLS)));
 
 
 

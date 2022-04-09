@@ -1,6 +1,7 @@
 package net.mrpomidorchik.miscellaneous;
 
 import net.fabricmc.api.ModInitializer;
+import net.mrpomidorchik.miscellaneous.block.ModBlocks;
 import net.mrpomidorchik.miscellaneous.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,5 +14,6 @@ public class MiscellaneousMod implements ModInitializer {
 	public void onInitialize() {
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

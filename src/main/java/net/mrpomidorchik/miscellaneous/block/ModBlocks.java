@@ -18,7 +18,7 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ItemGroup.BUILDING_BLOCKS);
 
     public static final Block RUBY_ORE = registerBlock("ruby_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(6f).requiresTool()), ItemGroup.BUILDING_BLOCKS);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(3f,3f).requiresTool()), ItemGroup.BUILDING_BLOCKS);
 
     public static final Block DEEPSLATE_RUBY_ORE = registerBlock("deepslate_ruby_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(6f).requiresTool()), ItemGroup.BUILDING_BLOCKS);

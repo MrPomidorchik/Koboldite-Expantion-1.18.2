@@ -27,7 +27,7 @@ public class ModConfiguredFeatures {
 
     public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> ORE_KOBOLDITE =
             ConfiguredFeatures.register("koboldite_ore", Feature.ORE,
-                    new OreFeatureConfig(OVERWORLD_KOBOLDITE_ORES, 2, 1.0f));
+                    new OreFeatureConfig(OVERWORLD_KOBOLDITE_ORES, 3));
 
 
     public static void registerConfiguredFeatures() {

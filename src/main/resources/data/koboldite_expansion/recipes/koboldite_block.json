@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "koboldite_expansion:koboldite_ingot"
+    }
+  },
+  "result": {
+    "item": "koboldite_expansion:koboldite_block"
+  }
+}

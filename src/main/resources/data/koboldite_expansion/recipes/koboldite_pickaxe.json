@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:diamond_pickaxe"
+  },
+  "addition": {
+    "item": "koboldite_expansion:koboldite_ingot"
+  },
+  "result": {
+    "item": "koboldite_expansion:koboldite_pickaxe"
+  }
+}

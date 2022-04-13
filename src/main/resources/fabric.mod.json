@@ -3,23 +3,23 @@
   "id": "miscellaneous",
   "version": "${version}",
 
-  "name": "Miscellaneous",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Koboldite Expansion",
+  "description": "Small mod that adds a new ore",
   "authors": [
     "MrPomidorchik"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "",
+    "sources": "https://github.com/MrPomidorchik/Koboldite-Expantion-1.18.2"
   },
 
   "license": "MIT",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/koboldite_expansion/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.mrpomidorchik.miscellaneous.MiscellaneousMod"
+      "net.mrpomidorchik.kobolditeexpansion.MiscellaneousMod"
     ]
   },
   "mixins": [

@@ -1,10 +1,7 @@
 {
   "replace": false,
   "values": [
-    "miscellaneous:ruby_block",
-    "miscellaneous:ruby_ore",
-    "miscellaneous:deepslate_ruby_ore",
-    "miscellaneous:koboldite_block",
-    "miscellaneous:deepslate_koboldite_ore"
+    "koboldite_expansion:koboldite_block",
+    "koboldite_expansion:deepslate_koboldite_ore"
   ]
 }

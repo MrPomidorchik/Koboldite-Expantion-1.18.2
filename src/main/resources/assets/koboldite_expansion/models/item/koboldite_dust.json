@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "koboldite_expansion:item/koboldite_dust"
+  }
+}

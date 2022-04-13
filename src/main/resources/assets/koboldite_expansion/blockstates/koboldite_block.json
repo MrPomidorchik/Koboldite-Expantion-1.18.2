@@ -1,0 +1,5 @@
+{
+  "variants":{
+    "": {"model": "koboldite_expansion:block/koboldite_block"}
+  }
+}

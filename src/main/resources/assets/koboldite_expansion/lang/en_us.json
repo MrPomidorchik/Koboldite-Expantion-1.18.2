@@ -6,5 +6,8 @@
 
 
   "block.koboldite_expansion.koboldite_block": "Koboldite Block",
-  "block.koboldite_expansion.deepslate_koboldite_ore": "Deepslate Koboldite Ore"
+  "block.koboldite_expansion.deepslate_koboldite_ore": "Deepslate Koboldite Ore",
+
+  "advancements.story.koboldite_tool.title": "More work!?",
+  "advancements.story.koboldite_tool.description": "Create a Koboldite Pickaxe"
 }

@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "koboldite_expansion:koboldite_nugget_smelting"
+    ]
+  },
+  "criteria": {
+    "has_koboldite_dust": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "koboldite_expansion:koboldite_dust"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "koboldite_expansion:koboldite_nugget_smelting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_koboldite_dust",
+      "has_the_recipe"
+    ]
+  ]
+}

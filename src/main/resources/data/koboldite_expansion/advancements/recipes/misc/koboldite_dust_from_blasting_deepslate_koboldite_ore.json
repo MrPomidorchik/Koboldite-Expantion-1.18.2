@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "koboldite_expansion:koboldite_dust_from_blasting_deepslate_koboldite_ore"
+    ]
+  },
+  "criteria": {
+    "has_deepslate_koboldite_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "koboldite_expansion:deepslate_koboldite_ore"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "koboldite_expansion:koboldite_dust_from_blasting_deepslate_koboldite_ore"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_deepslate_koboldite_ore",
+      "has_the_recipe"
+    ]
+  ]
+}

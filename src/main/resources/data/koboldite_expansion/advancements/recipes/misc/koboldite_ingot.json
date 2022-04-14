@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "koboldite_expansion:koboldite_ingot"
+    ]
+  },
+  "criteria": {
+    "has_koboldite_nugget": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "koboldite_expansion:koboldite_nugget"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "koboldite_expansion:koboldite_ingot"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_koboldite_nugget",
+      "has_the_recipe"
+    ]
+  ]
+}
